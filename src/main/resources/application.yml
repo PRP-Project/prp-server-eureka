@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: prp-server-eureka
+  profiles:
+    active: local
+  config:
+    import: "optional:configserver:"
